@@ -1,0 +1,482 @@
+@keyframes animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  /* Set your desired background properties */
+  background: linear-gradient(to right, #302f2d, #cccccc);
+  background-size: 200% 100%;
+  animation: animation 4s linear infinite;
+}
+
+header {
+    background-color: #0f0d0d;
+    color: #fff;
+    padding:0px;
+    text-align: center;
+}
+
+nav {body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: rgb(72, 222, 233);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  section {
+    height: 500px; /* Adjust as needed */
+    margin-top: 50px; /* Match the fixed navbar height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+   
+    color: #47a4fc;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flow-root;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    
+    height: auto;
+  }
+
+  /* Navigation Buttons */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+
+  .prev { left: 0; }
+  .next { right: 0; }
+
+  /* Optional: Add media queries for responsiveness */
+  @media screen and (max-width: 600px) {
+    .prev, .next {
+      font-size: 18px;
+    }
+  }
+  .video-container {
+    display: flexbox;
+    justify-content: space-between;
+  }
+
+  .video {
+    width: 30%; /* Adjust the width as needed */
+    margin: 10px;
+  }
+
+  .video iframe {
+   
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .video {
+    flex: 1;
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+
+ 
+  .text {
+    flex: auto;
+    font-size: 16px;
+   color: #eceaea;
+    ; /* Adjust the font size as needed */
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  section {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .animated-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: slideIn 1s ease-out;
+  }
+  
+  .footer-content {
+    text-align: left;
+  }
+  
+  .footer-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-out;
+  }
+  
+  .social-icon:hover {
+    color: #4CAF50;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .texts {
+    flex: auto;
+    font-size: 16px;
+   color: #eceaea;
+    ; }
+    footer{
+      width: 100%;
+      
+      bottom: 0;
+      background: linear-gradient(to right,#00093c,#2d0b00);
+      color: #fff;
+      padding: 0px 0 -0%;
+      border-top-left-radius: 125px;
+      font-size:13px;
+      line-height: 20px;
+    }
+    .row{
+    width: 85%;
+    margin: auto; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: flex-start;
+    justify-content: space-between;
+    }
+    .col{
+      flex-basis: 25%;
+      padding: 10px;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+      flex-basis: 15%;
+    }
+    .logo{
+      width: 80px;
+      margin-bottom: 30px;
+    }
+    .col h3{
+      width: fit-content;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .email-id{
+      width: fit-content;
+      border-bottom: 1px solid #ccc;
+      margin: 20px 0;
+    }
+    ul li{
+      list-style: none;
+      margin-bottom: 12px;
+    }
+    ul li a{
+      text-decoration: none;
+      color: #fff;
+    }
+    form{
+      padding-bottom: 15px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 50px;
+    }
+    form .far{
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    form input{
+      width: 100%;
+      background:transparent;
+      color: #ccc;
+      border: 0;
+      outline: none;
+    }
+    form button{
+      background: transparent;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+    }
+    form button .fast{
+      font-size: 16px;
+      color: #ccc;
+    }
+
+  .social-icons .fa-brands{
+      width:  21px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      font-size: 20px;
+      color: #fff;
+      margin-right: 15px;
+      cursor: pointer;
+    }
+   
+    .background{
+      color: #e6e6e6;
+    }
+    hr{
+      width: 100%;
+      border: 0;
+      border-bottom: 1px solid #ccc;
+      margin: 20px auto;
+    }
+    
+    .underline{
+      width: 100%;
+      height: 5px;
+      background: #767676;
+      border-radius: 3px;
+      position:absolute;
+      top: 25px;
+      left: 0;
+      overflow: hidden;
+    }
+
+    .underline span{
+      width: 15px;
+      height: 100%;
+      background: #fff;
+      border-radius: 3px;
+      position: absolute;
+      top: 0;
+      left: 48px;
+      animation: moving 2s linear infinite;
+      
+    }
+    @keyframes moving{
+      0%{
+        left: -15px;
+      }
+      100%{
+        left: 100;
+      }
+    }
+
+@media (max-width: 700px){
+  footer{
+    bottom: unset;
+  }
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.sliding-container {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.text-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text-wrapper {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#typing-text {
+  border-right: 2px solid #333;
+  padding-right: 8px;
+  display: inline-block;
+  animation: sliding 9s infinite linear;
+}
+
+@keyframes sliding {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.centerdiv{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
